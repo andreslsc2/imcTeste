@@ -1,4 +1,3 @@
-package com.br.Projeto;
 import java.util.Scanner;
 
 
@@ -20,34 +19,22 @@ public class Imc {
 		
 		imc = peso / (altura * altura);
 		
+		System.out.println(nome + ", o seu imc eh: " + imc);
+		
 		if(imc < 18.5){
 			System.out.println("*Voce está abaixo do peso ideal");
 		}
 		if(imc >=18.5 && imc <=24.9){
-			System.out.println("Parabens - voce esta normal nao ");
+			System.out.println("Parabens - voce esta normal ");
 		}
 		if(imc >=25 && imc <= 29.9){
-			System.out.println("Voce ta meio gorda")
+			System.out.println("Voce ta meio gorda");
 		}
 		if (imc > 30.0){
-			System.out.printn("Voce ta gordão bixão")
+			System.out.println("Voce ta gordão bixão");
 		}
-
-	}
+		
+	
 }
 		
-		
-		System.out.println(nome + ", o seu imc eh: " + imc);
-		
-		
-		
-		
-		
-		
-		
-		
-			
-
-	}
-
 }
